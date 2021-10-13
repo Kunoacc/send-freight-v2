@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/js-datepicker@5.18.0/dist/datepicker.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Send Freight Something</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <p class="navbar-logo"><b>Send</b> Freight</p>
+      <div class="navbar-search">
+        <input type="text" class="navbar-search__input" placeholder="Search" />
+        <img src="/assets/search.svg" alt="" class="navbar-search__icon" />
+      </div>
+      <div class="navbar-actions">
+        <button class="navbar-action">Request Quote</button>
+        <button class="navbar-action navbar-action--success">
+          Book Shipment
+        </button>
+      </div>
+    </nav>
+
+    <main class="content">
+      <button class="content-nav">
+        <img src="/assets/left-arrow.svg" alt="" />
+      </button>
+      <h1 class="content-title">New Booking</h1>
+      <p class="content-subtitle">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores ex
+        consequuntur nesciunt nostrum pariatur, repudiandae, ipsam iure eum sed
+        repellendus sequi aliquid, maiores aut nemo soluta optio quod suscipit
+        facere!
+      </p>
+
+      <div? class="content-cards">
+        <section id="services">
+          <div class="content-card">
+            <div class="content-card-header">
+              <h2 class="content-card-header__title">Select a service</h2>
+            </div>
+            <div class="content-card-services">
+              <div class="content-card-services-item">
+                <input type="radio" name="service" id="radio-3" hidden />
+                <label
+                  for="radio-3"
+                  class="content-card-services-item__cover"
+                ></label>
+                <p class="content-card-services-item__title">Air Freight</p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  viewBox="0 0 50 50"
+                  width="50px"
+                  height="50px"
+                  class="
+                    content-card-services-item__illustration
+                    content-card-services-item__illustration--plane
+                  "
+                >
+                  <g id="surface271099498">
+                    <path
+                      d="M 12.496094 46.972656 C 11.78125 46.972656 11.417969 46.601562 11.265625 46.378906 C 11.070312 46.09375 10.890625 45.605469 11.160156 44.882812 C 11.40625 44.234375 15.679688 33.828125 17.253906 30 L 6.640625 30 L 4.042969 34.992188 C 3.582031 35.894531 3.046875 35.988281 2.007812 36 L 1.296875 36 C 0.886719 36 0.515625 35.832031 0.277344 35.535156 C 0.0351562 35.242188 -0.0507812 34.855469 0.0390625 34.449219 C 0.125 34.03125 1.699219 26.359375 1.976562 25.003906 C 1.367188 22.121094 0.0625 15.898438 0.0195312 15.433594 C -0.0273438 14.910156 0.164062 14.578125 0.335938 14.390625 C 0.570312 14.132812 0.894531 14 1.296875 14 L 2 14 C 2.4375 14.011719 3.539062 14.039062 4.042969 15.007812 L 6.640625 20 L 17.253906 20 C 15.679688 16.171875 11.40625 5.765625 11.160156 5.117188 C 10.890625 4.398438 11.066406 3.90625 11.265625 3.625 C 11.417969 3.402344 11.785156 3.027344 12.496094 3.027344 L 12.679688 3.035156 C 13.042969 3.066406 14.164062 3.175781 15.03125 3.273438 C 16.09375 3.390625 16.539062 3.953125 16.78125 4.257812 C 17.011719 4.539062 27.191406 17.527344 29.128906 20 L 43.734375 20 C 48.136719 20 50 23.578125 50 25 C 50 26.421875 48.136719 30 43.734375 30 L 29.128906 30 C 26.953125 32.777344 17.015625 45.457031 16.824219 45.691406 C 16.542969 46.046875 16.09375 46.609375 15.03125 46.726562 C 14.164062 46.824219 13.039062 46.933594 12.679688 46.964844 Z M 12.496094 44.980469 L 12.5 45.972656 L 12.503906 44.972656 C 12.5 44.972656 12.496094 44.972656 12.496094 44.972656 Z M 12.496094 44.980469 "
+                    />
+                  </g>
+                </svg>
+              </div>
+              <div class="content-card-services-item">
+                <input type="radio" name="service" id="radio-4" hidden />
+                <label
+                  for="radio-4"
+                  class="content-card-services-item__cover"
+                ></label>
+                <p class="content-card-services-item__title">Sea Freight</p>
+                <svg
+                  fill="#000000"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                  width="64px"
+                  height="64px"
+                  class="content-card-services-item__illustration"
+                >
+                  <path
+                    d="M 237.04297 40.269531 L 237.04297 95.382812 L 279.50195 95.382812 L 279.50195 40.269531 L 237.04297 40.269531 z M 175.36328 115.38281 A 20.023 20.023 0 0 0 155.36328 135.38281 L 155.36328 156.88281 L 356.375 156.88281 L 356.375 135.38281 A 20.023 20.023 0 0 0 336.375 115.38281 L 175.36328 115.38281 z M 155.36328 176.88281 L 155.36328 259.18359 L 250.34961 194.12109 A 10 10 0 0 1 261.64844 194.12109 L 356.37305 259.00391 L 356.37305 176.88281 L 155.36328 176.88281 z M 265.86914 221.25586 L 265.86914 471.73047 L 361.31445 471.73047 L 420.32422 327.05273 L 265.86914 221.25586 z M 245.86914 221.43359 L 91.675781 327.05273 L 150.68555 471.73047 L 245.86914 471.73047 L 245.86914 221.43359 z"
+                  />
+                </svg>
+              </div>
+              <div class="content-card-services-item">
+                <input type="radio" name="service" id="radio-1" hidden />
+                <label
+                  for="radio-1"
+                  class="content-card-services-item__cover"
+                ></label>
+                <p class="content-card-services-item__title">
+                  Inland <br />
+                  (Truck & Barge)
+                </p>
+                <svg
+                  fill="#000000"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 50 50"
+                  width="50px"
+                  height="50px"
+                  class="content-card-services-item__illustration"
+                >
+                  <path
+                    d="M 2.84375 13 C 1.273438 13 0 14.277344 0 15.84375 L 0 42 C 0 43.566406 1.429688 45 3 45 L 7.09375 45 C 7.570313 47.835938 10.03125 50 13 50 C 15.96875 50 18.429688 47.835938 18.90625 45 L 28.15625 45 C 29.722656 45 31 43.722656 31 42.15625 L 31 15.90625 C 31 14.304688 29.738281 13 28.1875 13 Z M 33 20 L 33 45 C 33.480469 47.832031 36.03125 50 39 50 C 41.96875 50 44.429688 47.832031 44.90625 45 L 47 45 C 48.570313 45 50 43.570313 50 42 L 50 32.375 C 50 30.363281 48.550781 28.308594 48.375 28.0625 L 44.21875 22.5 C 43.265625 21.351563 41.769531 20 40 20 Z M 38 25 L 43.59375 25 L 46.78125 29.25 C 47.121094 29.730469 48 31.203125 48 32.375 L 48 33 L 38 33 C 37 33 36 32 36 31 L 36 27 C 36 25.894531 37 25 38 25 Z M 13 40 C 15.207031 40 17 41.792969 17 44 C 17 46.207031 15.207031 48 13 48 C 10.792969 48 9 46.207031 9 44 C 9 41.792969 10.792969 40 13 40 Z M 39 40 C 41.207031 40 43 41.792969 43 44 C 43 46.207031 41.207031 48 39 48 C 36.792969 48 35 46.207031 35 44 C 35 41.792969 36.792969 40 39 40 Z"
+                  />
+                </svg>
+              </div>
+              <div class="content-card-services-item">
+                <input type="radio" name="service" id="radio-2" hidden />
+                <label
+                  for="radio-2"
+                  class="content-card-services-item__cover"
+                ></label>
+                <p class="content-card-services-item__title">
+                  Customs <br />
+                  Clearance
+                </p>
+                <svg
+                  fill="#000000"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 128 128"
+                  width="64px"
+                  height="64px"
+                  class="content-card-services-item__illustration"
+                >
+                  <path
+                    d="M110.3 84.8c-1.2-.7-2.6-.5-3.6.5l-35 34.6c-.8.8-1.8 1.2-2.8 1.2-2.5 0-3.5-1.9-3.7-2.5-.2-.6-.9-2.6.9-4.4L95 85.7c.8-.8 1.2-1.2 1.3-2.1.2-1.6-.9-3.1-2.5-3.4-5-.8-12.3-2-20.2-2-9.3 0-17.1 2.2-23.4 5.2-9.5 4.5-18.6 13-25.9 19.8-1.9 1.8-4 3.8-5.9 5.4-1.3 1.1-2.7 2.1-4.3 2.8 0 0 0 0 0 0-.7.4-1.6.5-2.4.3-.4-.1-.7-.3-1-.6C9 109.4 7 104.1 7 88.2c0-1.6-1.2-3.1-2.8-3.1C2.4 84.9 1 86.3 1 88c0 15.2 2.3 23.2 5.6 27.4C8.2 117.5 17.8 127 29 127h39.9H124c1.7 0 3-1.3 3-3v-9.2C127 101.1 121.4 91 110.3 84.8zM4 77h22c1.7 0 3-1.3 3-3V44c0-1.7-1.3-3-3-3H4c-1.7 0-3 1.3-3 3v30C1 75.7 2.3 77 4 77zM7 47h16v24H7V47zM42.1 40h41.5c6.1 0 11.9-2.4 16.3-6.7.1-.1.2-.2.2-.3l.9-1.2v9.7c0 11.9-9.7 22.3-21.5 22.5-9.2.2-17.4-5.3-20.9-13.8-.6-1.5-2.2-2.3-3.8-1.8-1.7.5-2.5 2.4-1.9 4C57.3 63.2 67.8 70.2 79.5 70 94.9 69.7 107 56.8 107 41.4v-18l4.9-18.6c.2-.9 0-1.9-.5-2.6S109.9 1 109 1H50v0c-.7 0-1.4.2-2.1 1-.8.9-1 2.2-.7 3.3l2.2 8.5c.3 1.3 1.5 2.2 2.9 2.2h20.9c1.5 0 2.8 1 3.1 2.4.4 1.9-1.1 3.6-2.9 3.6h-21c-.6 0-1.3.2-1.8.6l-11.3 8.3c-1.5 1.1-2.3 2.8-2.1 4.6C37.4 38.1 39.6 40 42.1 40z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="info">
+          <div class="content-card">
+            <div class="content-card-header">
+              <div class="content-card-header__title">
+                <img src="/assets/info.svg" alt="" />
+              </div>
+            </div>
+
+            <div class="content-card-inputs">
+              <div class="content-card-switch">
+                <input type="radio" id="import" name="info" hidden />
+                <label class="content-card-switch-item" for="import"
+                  >Import</label
+                >
+                <input type="radio" id="export" name="info" hidden />
+                <label class="content-card-switch-item" for="export"
+                  >Export</label
+                >
+              </div>
+
+              <div class="content-card-input">
+                <div class="content-card-input-prepend">
+                  <img
+                    src="/assets/location.png"
+                    class="content-card-input-prepend__icon"
+                    alt=""
+                  />
+                  <span>From</span>
+                </div>
+                <input
+                  type="text"
+                  class="content-card-input__text"
+                  placeholder="City or Port"
+                />
+              </div>
+
+              <div class="content-card-input">
+                <div class="content-card-input-prepend">
+                  <img
+                    src="/assets/location.png"
+                    class="content-card-input-prepend__icon"
+                    alt=""
+                  />
+                  <span>To</span>
+                </div>
+                <input
+                  type="text"
+                  class="content-card-input__text"
+                  placeholder="City or Port"
+                />
+              </div>
+
+              <div class="content-card-input">
+                <div class="content-card-input-prepend">
+                  <img
+                    src="/assets/calendar.png"
+                    class="content-card-input-prepend__icon"
+                    alt=""
+                  />
+                </div>
+                <input type="date" class="content-card-input__text" />
+              </div>
+
+              <div class="content-card-input">
+                <select
+                  type="text"
+                  class="content-card-input__text"
+                  placeholder="City or Port"
+                >
+                  <option value="1" selected>Incoterms</option>
+                  <option value="1">Option B</option>
+                  <option value="1">Option C</option>
+                  <option value="1">Option D</option>
+                </select>
+              </div>
+
+              <div class="content-card-input">
+                <input
+                  type="text"
+                  class="content-card-input__text"
+                  placeholder="Total Cargo Value"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="cargo-details">
+          <div class="content-card">
+            <div class="content-card-header">
+              <h2 class="content-card-header__title">Cargo Details</h2>
+              <div class="content-card-toggle">
+                <div class="content-card-toggle-container">
+                  <input
+                    type="checkbox"
+                    name="toggle"
+                    id="toggle-1"
+                    class="content-card-toggle__input"
+                  />
+                  <label
+                    for="toggle-1"
+                    class="content-card-toggle__toggler"
+                  ></label>
+                </div>
+                <p class="content-card-toggle__text">
+                  <b>Dangerous Cargo</b> (ex. Kiitan, Battries)
+                </p>
+              </div>
+            </div>
+
+            <div class="content-card-details">
+              <div class="content-card-tabs">
+                <input
+                  class="content-card-tabs__input"
+                  type="radio"
+                  id="total-dimensions"
+                  value="times"
+                  name="tabs"
+                  checked
+                />
+                <label class="content-card-tabs__item" for="total-dimensions"
+                  >Total Dimensions</label
+                >
+                <input
+                  class="content-card-tabs__input"
+                  type="radio"
+                  id="package-details"
+                  value="fee"
+                  name="tabs"
+                />
+                <label class="content-card-tabs__item" for="package-details"
+                  >Package Details</label
+                >
+                <span class="content-card-tabs__glider"></span>
+              </div>
+
+              <div class="content-card-floating-inputs">
+                <div class="content-card-floating-input-items">
+                  <label
+                    type="text"
+                    name=""
+                    id="float-1"
+                    class="content-card-floating-input-items__label"
+                    >Total Volume</label
+                  >
+                  <input
+                    type="text"
+                    name=""
+                    id="float-1"
+                    class="content-card-floating-input-items__text"
+                  />
+                  <div class="content-card-floating-input-items-append">
+                    Cbm
+                  </div>
+                </div>
+
+                <div class="content-card-floating-input-items">
+                  <label
+                    type="text"
+                    name=""
+                    id="float-1"
+                    class="content-card-floating-input-items__label"
+                    >Total Weight</label
+                  >
+                  <input
+                    type="text"
+                    name=""
+                    id="float-1"
+                    class="content-card-floating-input-items__text"
+                  />
+                  <div class="content-card-floating-input-items-append">Kg</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="additional-services">
+          <div class="content-card">
+            <div class="content-card-header">
+              <h2 class="content-card-header__title">Additional Services</h2>
+            </div>
+
+          <div class="content-card-services-list">
+            <div class="content-card-toggle">
+              <div class="content-card-toggle-container">
+                <input
+                  type="checkbox"
+                  name="toggle"
+                  id="toggle-2"
+                  class="content-card-toggle__input"
+                />
+                <label
+                  for="toggle-2"
+                  class="content-card-toggle__toggler"
+                ></label>
+              </div>
+              <div class="content-card-toggle-text">
+                <p class="content-card-toggle-text__title"><b>Export Forwarding</b></p>
+                <p class="content-card-toggle-text__subtitle">we handle customs clearance and documentation</p>
+              </div>
+            </div>
+            
+            <div class="content-card-toggle">
+              <div class="content-card-toggle-container">
+                <input
+                  type="checkbox"
+                  name="toggle"
+                  id="toggle-3"
+                  class="content-card-toggle__input"
+                />
+                <label
+                  for="toggle-3"
+                  class="content-card-toggle__toggler"
+                ></label>
+              </div>
+              <div class="content-card-toggle-text">
+                <p class="content-card-toggle-text__title"><b>Export Forwarding</b></p>
+                <p class="content-card-toggle-text__subtitle">we handle customs clearance and documentation</p>
+              </div>
+            </div>
+            
+            <div class="content-card-toggle">
+              <div class="content-card-toggle-container">
+                <input
+                  type="checkbox"
+                  name="toggle"
+                  id="toggle-4"
+                  class="content-card-toggle__input"
+                />
+                <label
+                  for="toggle-4"
+                  class="content-card-toggle__toggler"
+                ></label>
+              </div>
+              <div class="content-card-toggle-text">
+                <p class="content-card-toggle-text__title"><b>Export Forwarding</b></p>
+                <p class="content-card-toggle-text__subtitle">we handle customs clearance and documentation</p>
+              </div>
+            </div>
+            
+            <div class="content-card-toggle">
+              <div class="content-card-toggle-container">
+                <input
+                  type="checkbox"
+                  name="toggle"
+                  id="toggle-5"
+                  class="content-card-toggle__input"
+                />
+                <label
+                  for="toggle-5"
+                  class="content-card-toggle__toggler"
+                ></label>
+              </div>
+              <div class="content-card-toggle-text">
+                <p class="content-card-toggle-text__title"><b>Export Forwarding</b></p>
+                <p class="content-card-toggle-text__subtitle">we handle customs clearance and documentation</p>
+              </div>
+            </div>
+            
+            
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/js-datepicker@5.18.0/dist/datepicker.min.js"></script>
+  </body>
+</html>
